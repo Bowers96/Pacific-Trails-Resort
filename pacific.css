@@ -5,7 +5,7 @@ Pacific Trails Resort
 
 Author: Brandon Bowers
 
-Date: 04/02/2018
+Date: 04/17/2018
 
 */
 
@@ -242,6 +242,12 @@ input, textarea {
 	margin-left: 10em;
 }
 
+iframe {
+	width: 70%;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
 
 /*
 	Tablet media query
@@ -377,6 +383,12 @@ input, textarea {
     #desktop { 
     	display: none; 
     }
+
+    iframe {
+		width: 100%;
+    	display: block;
+    	margin: 20px auto 0 auto;
+	}
 }
 
 
